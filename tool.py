@@ -35,7 +35,8 @@ class Geotool(object):
 
     Example usage:
 
-    >>> geo = Geotool()
+    >>> import geocode
+    >>> geo = geocode.Geotool()
     >>> response_google = geo.geocode_google('United States Capitol')
     >>> response_bing = geo.geocode_bing('Lincoln Memorial, DC')
     >>> response_mapquest = geo.geocode_mapquest('10 Elm St, Danvers, MA 01923')
@@ -58,7 +59,8 @@ class Geotool(object):
 
         Example usage:
 
-        >>> g = Geotool()
+        >>> import geocode
+        >>> geo = geocode.Geotool()
         >>> resp_google = g.geocode_google('United States Capitol')
         >>> resp_bing = g.geocode_bing('Lincoln Memorial, DC')
         >>> resp_mapquest = g.geocode_mapquest('10 Elm St, Danvers, MA 01923')
